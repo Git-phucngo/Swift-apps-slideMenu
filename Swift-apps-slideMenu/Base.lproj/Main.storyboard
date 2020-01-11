@@ -38,22 +38,12 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2E-Kf-hAu">
-                                                    <rect key="frame" x="16" y="53" width="378" height="2"/>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="2" id="Jwx-6h-qJS"/>
-                                                    </constraints>
-                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Tc4-eV-QHe" firstAttribute="centerY" secondItem="aJZ-cX-KAE" secondAttribute="centerY" id="1tr-1c-BvF"/>
-                                                <constraint firstAttribute="trailing" secondItem="t2E-Kf-hAu" secondAttribute="trailing" constant="20" symbolic="YES" id="BFj-Xv-oS4"/>
                                                 <constraint firstItem="Tc4-eV-QHe" firstAttribute="leading" secondItem="aJZ-cX-KAE" secondAttribute="leading" constant="16" id="KsD-Jm-ahe"/>
                                                 <constraint firstItem="8Au-N6-RUM" firstAttribute="centerY" secondItem="Tc4-eV-QHe" secondAttribute="centerY" id="Vzh-Cx-iG9"/>
-                                                <constraint firstItem="t2E-Kf-hAu" firstAttribute="leading" secondItem="aJZ-cX-KAE" secondAttribute="leading" constant="16" id="YL8-5X-llb"/>
                                                 <constraint firstItem="8Au-N6-RUM" firstAttribute="leading" secondItem="Tc4-eV-QHe" secondAttribute="trailing" constant="16" id="fFz-mH-fIn"/>
-                                                <constraint firstAttribute="bottom" secondItem="t2E-Kf-hAu" secondAttribute="bottom" constant="20" symbolic="YES" id="vLn-0c-tNS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -77,20 +67,10 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2QP-SN-CXa">
-                                                    <rect key="frame" x="16" y="53" width="378" height="2"/>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="2" id="PlO-aJ-fpe"/>
-                                                    </constraints>
-                                                </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="nJJ-tN-fHz" firstAttribute="leading" secondItem="kSA-Ep-BMF" secondAttribute="trailing" constant="16" id="7CN-o1-6h5"/>
                                                 <constraint firstItem="kSA-Ep-BMF" firstAttribute="leading" secondItem="dQZ-e5-Xkv" secondAttribute="leading" constant="16" id="Ge7-QP-Xrx"/>
-                                                <constraint firstAttribute="trailing" secondItem="2QP-SN-CXa" secondAttribute="trailing" constant="20" symbolic="YES" id="TyZ-24-eSp"/>
-                                                <constraint firstItem="2QP-SN-CXa" firstAttribute="leading" secondItem="dQZ-e5-Xkv" secondAttribute="leading" constant="16" id="c0f-Ek-hx2"/>
-                                                <constraint firstAttribute="bottom" secondItem="2QP-SN-CXa" secondAttribute="bottom" constant="20" symbolic="YES" id="il1-G4-g7x"/>
                                                 <constraint firstItem="nJJ-tN-fHz" firstAttribute="centerY" secondItem="kSA-Ep-BMF" secondAttribute="centerY" id="nQx-6q-Plx"/>
                                                 <constraint firstItem="kSA-Ep-BMF" firstAttribute="centerY" secondItem="dQZ-e5-Xkv" secondAttribute="centerY" id="pSf-bi-yjl"/>
                                             </constraints>
@@ -116,22 +96,12 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgk-al-Ile">
-                                                    <rect key="frame" x="16" y="53" width="378" height="2"/>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="2" id="AoR-ox-Ycc"/>
-                                                    </constraints>
-                                                </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="Xgk-al-Ile" secondAttribute="trailing" constant="20" symbolic="YES" id="5qq-3u-Rvg"/>
                                                 <constraint firstItem="50Y-k5-1rL" firstAttribute="leading" secondItem="Hcd-2L-smG" secondAttribute="leading" constant="16" id="F30-ix-CSs"/>
                                                 <constraint firstItem="djE-2u-iez" firstAttribute="centerY" secondItem="50Y-k5-1rL" secondAttribute="centerY" id="OPa-7R-vew"/>
-                                                <constraint firstItem="Xgk-al-Ile" firstAttribute="leading" secondItem="Hcd-2L-smG" secondAttribute="leading" constant="16" id="eIW-TM-QNw"/>
                                                 <constraint firstItem="djE-2u-iez" firstAttribute="leading" secondItem="50Y-k5-1rL" secondAttribute="trailing" constant="16" id="pbQ-YC-f0t"/>
                                                 <constraint firstItem="50Y-k5-1rL" firstAttribute="centerY" secondItem="Hcd-2L-smG" secondAttribute="centerY" id="rmH-nJ-LIv"/>
-                                                <constraint firstAttribute="bottom" secondItem="Xgk-al-Ile" secondAttribute="bottom" constant="20" symbolic="YES" id="zRI-k5-rTm"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -147,7 +117,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eb4-bC-w9s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039.1304347826087" y="853.53260869565224"/>
+            <point key="canvasLocation" x="132" y="835"/>
         </scene>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
