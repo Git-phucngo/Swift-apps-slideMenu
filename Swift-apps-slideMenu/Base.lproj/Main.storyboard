@@ -10,7 +10,7 @@
         <!--Menu View Controller-->
         <scene sceneID="eFz-CC-OX9">
             <objects>
-                <tableViewController id="uMp-PT-DO9" customClass="MenuViewController" customModule="Swift_apps_slideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MenuViewController" id="uMp-PT-DO9" customClass="MenuViewController" customModule="Swift_apps_slideMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="cZo-0j-kcV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,7 +162,7 @@
                     <navigationItem key="navigationItem" title="Home" id="e4m-cZ-tbC">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="TxQ-8m-pZM">
                             <connections>
-                                <segue destination="uMp-PT-DO9" kind="show" id="5de-GE-wce"/>
+                                <action selector="didTapMenu:" destination="BYZ-38-t0r" id="cy5-9N-hd4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

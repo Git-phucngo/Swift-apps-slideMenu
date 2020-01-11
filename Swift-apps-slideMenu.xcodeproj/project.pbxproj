@@ -15,6 +15,7 @@
 		D1482AFC23C97F2B0060F083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1482AFA23C97F2B0060F083 /* LaunchScreen.storyboard */; };
 		D1482B0723C97F2C0060F083 /* Swift_apps_slideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1482B0623C97F2C0060F083 /* Swift_apps_slideMenuTests.swift */; };
 		D1482B1423C980D00060F083 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1482B1323C980D00060F083 /* MenuViewController.swift */; };
+		D1482B1623C98C5B0060F083 /* SlideIntTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1482B1523C98C5B0060F083 /* SlideIntTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D1482B0623C97F2C0060F083 /* Swift_apps_slideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_apps_slideMenuTests.swift; sourceTree = "<group>"; };
 		D1482B0823C97F2C0060F083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1482B1323C980D00060F083 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D1482B1523C98C5B0060F083 /* SlideIntTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideIntTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				D1482AFA23C97F2B0060F083 /* LaunchScreen.storyboard */,
 				D1482AFD23C97F2B0060F083 /* Info.plist */,
 				D1482B1323C980D00060F083 /* MenuViewController.swift */,
+				D1482B1523C98C5B0060F083 /* SlideIntTransition.swift */,
 			);
 			path = "Swift-apps-slideMenu";
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1482AF423C97F270060F083 /* ViewController.swift in Sources */,
+				D1482B1623C98C5B0060F083 /* SlideIntTransition.swift in Sources */,
 				D1482AF023C97F270060F083 /* AppDelegate.swift in Sources */,
 				D1482AF223C97F270060F083 /* SceneDelegate.swift in Sources */,
 				D1482B1423C980D00060F083 /* MenuViewController.swift in Sources */,
